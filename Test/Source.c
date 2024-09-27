@@ -115,6 +115,7 @@
 
 
 #include <stdio.h>
+#include <stdlib.h>
 #include <windows.h>
 #include <conio.h>
 
@@ -190,6 +191,18 @@ void CursorView(char show)
     SetConsoleCursorInfo(GetStdHandle(STD_OUTPUT_HANDLE), &ConsoleCursor);
 }
 
+void SnakeFood()
+{
+    int randomx = 0;
+    int randomy = 0;
+
+    randomx = rand() % 18 + 1;
+    randomy = rand() % 20 + 1;
+
+    
+}
+// ¹ì À½½Ä : £À
+
 int x = 4;
 int y = 8;
 
@@ -198,10 +211,19 @@ int y = 8;
 
 int main(void) {
     
-    Character character = { 1,1,"¡Ú" };
+    Character character = { 1,1,"¡Þ" };
+
     CursorView(0);
+
     GotoXY(x, y);
-    printf("¡Þ");
+
+    //printf("¡Þ");
+
+    if ((x, y) == "@")
+    {
+
+    }
+
     while (1)
     {
         if (_kbhit())
