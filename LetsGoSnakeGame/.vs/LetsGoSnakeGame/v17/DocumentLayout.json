@@ -6,11 +6,11 @@
       "AbsoluteMoniker": "D:0:0:{F4686683-E2F6-4F0F-9D68-718001392934}|..\\Test\\Test.vcxproj|C:\\Users\\minge\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\\uB3C4\uC804 \uAC8C\uC784\uBCA8\\Snake-Game\\Test\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4683EAD5-5C01-4EA8-ADE7-A735D4E08E99}|LetsGoSnakeGame.vcxproj|C:\\Users\\minge\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\\uB3C4\uC804 \uAC8C\uC784\uBCA8\\Snake-Game\\LetsGoSnakeGame\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{4683EAD5-5C01-4EA8-ADE7-A735D4E08E99}|LetsGoSnakeGame.vcxproj|solutionrelative:Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\minge\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Test\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\minge\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Test\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{4683EAD5-5C01-4EA8-ADE7-A735D4E08E99}|LetsGoSnakeGame.vcxproj|C:\\Users\\minge\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\\uB3C4\uC804 \uAC8C\uC784\uBCA8\\Snake-Game\\LetsGoSnakeGame\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{4683EAD5-5C01-4EA8-ADE7-A735D4E08E99}|LetsGoSnakeGame.vcxproj|solutionrelative:Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -20,8 +20,19 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Source.c",
+              "DocumentMoniker": "C:\\Users\\minge\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Test\\Source.c",
+              "RelativeDocumentMoniker": "..\\..\\..\\Test\\Source.c",
+              "ToolTip": "C:\\Users\\minge\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Test\\Source.c",
+              "RelativeToolTip": "..\\..\\..\\Test\\Source.c",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2024-09-23T12:11:03.405Z"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -30,7 +41,7 @@
               "RelativeDocumentMoniker": "..\\Test\\Source.c",
               "ToolTip": "C:\\Users\\minge\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\\uB3C4\uC804 \uAC8C\uC784\uBCA8\\Snake-Game\\Test\\Source.c",
               "RelativeToolTip": "..\\Test\\Source.c",
-              "ViewState": "AQIAAMEAAAAAAAAAAAAnwMYAAAAeAAAA",
+              "ViewState": "AQIAAIIAAAAAAAAAAAAAAI0AAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-09-24T12:17:29.53Z",
               "EditorCaption": ""
@@ -39,25 +50,14 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Source.c",
-              "DocumentMoniker": "C:\\Users\\minge\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Test\\Source.c",
-              "RelativeDocumentMoniker": "..\\..\\..\\Test\\Source.c",
-              "ToolTip": "C:\\Users\\minge\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\Test\\Source.c",
-              "RelativeToolTip": "..\\..\\..\\Test\\Source.c",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-09-23T12:11:03.405Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Source.c",
               "DocumentMoniker": "C:\\Users\\minge\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\\uB3C4\uC804 \uAC8C\uC784\uBCA8\\Snake-Game\\LetsGoSnakeGame\\Source.c",
               "RelativeDocumentMoniker": "Source.c",
               "ToolTip": "C:\\Users\\minge\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\\uB3C4\uC804 \uAC8C\uC784\uBCA8\\Snake-Game\\LetsGoSnakeGame\\Source.c",
               "RelativeToolTip": "Source.c",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAPAAAA",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAAAAoAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-09-23T11:39:16.507Z"
+              "WhenOpened": "2024-09-23T11:39:16.507Z",
+              "EditorCaption": ""
             }
           ]
         },
