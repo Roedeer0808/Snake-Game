@@ -97,6 +97,7 @@ void CursorView(char show)
 	SetConsoleCursorInfo(GetStdHandle(STD_OUTPUT_HANDLE), &ConsoleCursor);
 }
 
+int n_food = 0;
 void SnakeFood()
 {
 	int randomx = 0;
@@ -104,13 +105,34 @@ void SnakeFood()
 
 	randomx = rand() % 18 + 1;
 	randomy = rand() % 40 + 1;
+	// if (n_food==)
+	// {
+	// 
+	// }
+	// printf("¢Ý");
+	// n_food++;
 
-	maze[randomx][randomy] = "¢Ý";
+	// while (1)
+	// {
+	// 	randomx = rand() % 18 + 1;
+	// 	randomy = rand() % 40 + 1;
+	// 	if (maze[randomx][randomy] == '0')
+	// 	{
+	// 		printf("¢Ý");
+	// 	}
+	// }
 }
-// ¹ì À½½Ä : £À
+// ¹ì À½½Ä : ¢Ý
+
+// void wall()
+// {
+// }
+
 
 int x = 4;
 int y = 8;
+
+int snakeleg = 0;
 
 int main()
 {
@@ -124,6 +146,7 @@ int main()
 
 	Render();
 	SnakeFood();
+	
 
 	while (1)
 	{
@@ -135,24 +158,46 @@ int main()
 			{
 				key = _getch();
 			}
-
+			
+			// if (character.x == 0 || character.y == 0 || character.x == 18 || character.y == 40)
+			// {
+			// 	break;
+			// }
+			
 			switch (key)
 			{
 			case UP: 	
 				system("cls");
 				if (maze[character.y - 1][character.x / 2] != '1') character.y--;
+				if (character.x == 0 || character.x == 40 || character.y == 0 || character.y == 18) break;
+				if (maze[character.y][character.x] == "¢Ý") {
+					snakeleg++;
+				}
 				break;
 			case LEFT: 	
 				system("cls");
 				if (maze[character.y][character.x / 2 - 1] != '1')	character.x -= 2;
+				if (character.x == 0 || character.x == 40 || character.y == 0 || character.y == 18) break;
+				if (maze[character.y][character.x] == "¢Ý") {
+					snakeleg++;
+				}
+
 				break;
 			case RIGHT:	
 				system("cls");
 				if (maze[character.y][character.x / 2 + 1] != '1') character.x += 2;
+				if (character.x == 0 || character.x == 40 || character.y == 0 || character.y == 18) break;
+				if (maze[character.y][character.x] == "¢Ý") {
+					snakeleg++;
+				}
 				break;
 			case DOWN:	
 				system("cls");
 				if (maze[character.y + 1][character.x / 2] != '1') character.y++;
+				if (character.x == 0 || character.x == 40 || character.y == 0 || character.y == 18) break;
+				if (maze[character.y][character.x] == "¢Ý") {
+					snakeleg++;
+				}
 				break;
 			}
 			//system("cls");
