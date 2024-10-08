@@ -121,7 +121,7 @@ void SnakeFood()
 	// 		printf("♬");
 	// 	}
 	// }
-}
+} // 사과 생성 조건 - 못만듬
 // 뱀 음식 : ♬
 
 // void wall()
@@ -134,9 +134,14 @@ int y = 8;
 
 int snakeleg = 0;
 
+void snakemain()
+{
+	
+}
+
 int main()
 {
-	Character character = { 1,1,"◇" };
+	Character character = { 2,2,"◇" };
 
 	CursorView(0);
 
@@ -146,7 +151,15 @@ int main()
 
 	Render();
 	SnakeFood();
-	
+
+
+	// character.x = y;
+	// character.y = x;
+	// if (maze[x][y]=="♬")
+	// {
+	// 
+	// }
+	// // 뱀 몸통
 
 	while (1)
 	{
@@ -168,7 +181,15 @@ int main()
 			{
 			case UP: 	
 				system("cls");
-				if (maze[character.y - 1][character.x / 2] != '1') character.y--;
+				if (maze[character.y - 1][character.x / 2] != '1')
+				{
+					//character.y--;
+					while (UP != LEFT || UP != RIGHT||UP != DOWN)
+					{
+						character.y--;
+						Sleep(5);
+					}//위로 계속 이동-미완성
+				}
 				if (character.x == 0 || character.x == 40 || character.y == 0 || character.y == 18) break;
 				if (maze[character.y][character.x] == "♬") {
 					snakeleg++;
@@ -176,7 +197,16 @@ int main()
 				break;
 			case LEFT: 	
 				system("cls");
-				if (maze[character.y][character.x / 2 - 1] != '1')	character.x -= 2;
+				if (maze[character.y][character.x / 2 - 1] != '1')
+				{
+					//character.x -= 2;
+					while (LEFT !=	UP || LEFT != RIGHT || LEFT != DOWN)
+					{
+						character.x -= 2;
+						Sleep(5);
+					}//왼쪽으로 계속 이동-미완성
+					
+				}
 				if (character.x == 0 || character.x == 40 || character.y == 0 || character.y == 18) break;
 				if (maze[character.y][character.x] == "♬") {
 					snakeleg++;
@@ -185,7 +215,15 @@ int main()
 				break;
 			case RIGHT:	
 				system("cls");
-				if (maze[character.y][character.x / 2 + 1] != '1') character.x += 2;
+				if (maze[character.y][character.x / 2 + 1] != '1')
+				{
+					//character.x += 2;
+					while (RIGHT != UP || RIGHT != LEFT || RIGHT != DOWN)
+					{
+						character.x += 2;
+						Sleep(5);
+					}//오른쪽으로 계속 이동-미완성
+				}
 				if (character.x == 0 || character.x == 40 || character.y == 0 || character.y == 18) break;
 				if (maze[character.y][character.x] == "♬") {
 					snakeleg++;
@@ -193,7 +231,15 @@ int main()
 				break;
 			case DOWN:	
 				system("cls");
-				if (maze[character.y + 1][character.x / 2] != '1') character.y++;
+				if (maze[character.y + 1][character.x / 2] != '1')
+				{
+					//character.y++;
+					while (DOWN != UP || DOWN != LEFT || DOWN != RIGHT)
+					{
+						character.y++;
+						Sleep(5);
+					}//아래로 계속 이동-미완성
+				}
 				if (character.x == 0 || character.x == 40 || character.y == 0 || character.y == 18) break;
 				if (maze[character.y][character.x] == "♬") {
 					snakeleg++;
