@@ -6,11 +6,17 @@
       "AbsoluteMoniker": "D:0:0:{F4686683-E2F6-4F0F-9D68-718001392934}|..\\Test\\Test.vcxproj|C:\\Users\\minge\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\\uB3C4\uC804 \uAC8C\uC784\uBCA8\\Snake-Game\\Test\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E36D5FA1-7371-45E7-AFB8-242A27DB96A4}|..\\SecondTest\\SecondTest.vcxproj|C:\\Users\\minge\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\\uB3C4\uC804 \uAC8C\uC784\uBCA8\\Snake-Game\\SecondTest\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{F4686683-E2F6-4F0F-9D68-718001392934}|..\\Test\\Test.vcxproj|C:\\PROGRAM FILES\\MICROSOFT VISUAL STUDIO\\2022\\COMMUNITY\\VC\\TOOLS\\MSVC\\14.39.33519\\INCLUDE\\XMEMORY||{3B902123-F8A7-4915-9F01-361F908088D0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4683EAD5-5C01-4EA8-ADE7-A735D4E08E99}|LetsGoSnakeGame.vcxproj|C:\\Users\\minge\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\\uB3C4\uC804 \uAC8C\uC784\uBCA8\\Snake-Game\\LetsGoSnakeGame\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{4683EAD5-5C01-4EA8-ADE7-A735D4E08E99}|LetsGoSnakeGame.vcxproj|solutionrelative:Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E36D5FA1-7371-45E7-AFB8-242A27DB96A4}|..\\SecondTest\\SecondTest.vcxproj|C:\\Users\\minge\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\\uB3C4\uC804 \uAC8C\uC784\uBCA8\\Snake-Game\\SecondTest\\Source.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\include\\yvals_core.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -20,20 +26,44 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "xmemory",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\include\\xmemory",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\include\\xmemory",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\include\\xmemory",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\include\\xmemory",
+              "ViewState": "AQIAADsAAAAAAAAAAAAMwFQAAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-10-10T09:29:01.544Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "yvals_core.h",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\include\\yvals_core.h",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\include\\yvals_core.h",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\include\\yvals_core.h",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.39.33519\\include\\yvals_core.h",
+              "ViewState": "AQIAAAMAAAAAAAAAAADwvxsAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-10-10T09:10:47.542Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Source.c",
               "DocumentMoniker": "C:\\Users\\minge\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\\uB3C4\uC804 \uAC8C\uC784\uBCA8\\Snake-Game\\SecondTest\\Source.c",
               "RelativeDocumentMoniker": "..\\SecondTest\\Source.c",
-              "ToolTip": "C:\\Users\\minge\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\\uB3C4\uC804 \uAC8C\uC784\uBCA8\\Snake-Game\\SecondTest\\Source.c",
-              "RelativeToolTip": "..\\SecondTest\\Source.c",
-              "ViewState": "AQIAAFwAAAAAAAAAAAAhwHIAAAANAAAA",
+              "ToolTip": "C:\\Users\\minge\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\\uB3C4\uC804 \uAC8C\uC784\uBCA8\\Snake-Game\\SecondTest\\Source.c*",
+              "RelativeToolTip": "..\\SecondTest\\Source.c*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAJUAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
-              "WhenOpened": "2024-10-04T11:03:44.122Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-04T11:03:44.122Z"
             },
             {
               "$type": "Document",
@@ -43,7 +73,7 @@
               "RelativeDocumentMoniker": "..\\Test\\Source.c",
               "ToolTip": "C:\\Users\\minge\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\\uB3C4\uC804 \uAC8C\uC784\uBCA8\\Snake-Game\\Test\\Source.c",
               "RelativeToolTip": "..\\Test\\Source.c",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAB0AAAAJAAAA",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAAAGEAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-09-24T12:17:29.53Z",
               "EditorCaption": ""
@@ -56,7 +86,7 @@
               "RelativeDocumentMoniker": "Source.c",
               "ToolTip": "C:\\Users\\minge\\OneDrive\\\uBC14\uD0D5 \uD654\uBA74\\\uB3C4\uC804 \uAC8C\uC784\uBCA8\\Snake-Game\\LetsGoSnakeGame\\Source.c",
               "RelativeToolTip": "Source.c",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAABDAAAA",
+              "ViewState": "AQIAAFEAAAAAAAAAAAAAAGwAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
               "WhenOpened": "2024-09-23T11:39:16.507Z"
             }
